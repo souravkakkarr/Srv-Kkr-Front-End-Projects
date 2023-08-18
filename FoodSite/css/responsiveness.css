@@ -17,7 +17,7 @@
     #client-section::before{
         content: "";
         position: absolute;
-        background-image: url("../bg.jpg");
+        background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/FoodSite/bg.jpg");
         width: 100%;
         height: 60%;
         z-index: -1;
@@ -46,7 +46,7 @@
     #client-section::before{
         content: "";
         position: absolute;
-        background-image: url("../bg.jpg");
+        background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/FoodSite/bg.jpg");
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -79,7 +79,7 @@
     #client-section::before{
         content: "";
         position: absolute;
-        background-image: url("../bg.jpg");
+        background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/FoodSite/bg.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -154,7 +154,7 @@
     #client-section::before{
         content: "";
         position: absolute;
-        background-image: url("../bg.jpg");
+        background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/FoodSite/bg.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -203,7 +203,7 @@
         display: block;
     }#home::before{
         content: "";
-        background-image: url("../bg1.jpg");
+        background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/FoodSite/bg1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
