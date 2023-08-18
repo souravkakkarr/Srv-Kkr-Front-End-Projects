@@ -1,0 +1,215 @@
+@media screen and (min-width : 420px) and (max-width : 1000px) {
+    .secondary-heading{
+        display: block;
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .left img{
+        width: 45px;
+    }
+    
+    .left h1{
+        display: none;
+    }
+
+    .right{
+        align-items: center;
+    }
+    
+    .btn p{
+        font-size: 0.8rem;
+    }
+
+    .footnav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    section{
+        margin: 125px 0px 40px 0px;
+    }
+
+    .contactform{
+        display: block;
+        width: 90%;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .joinform h2{
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .formblock{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        border: none;
+        border-radius: 13px;
+    }
+
+    .field{
+        width: 100%;
+    }
+
+    #submit{
+        width: 60%;
+    }
+
+    #reset{
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 419px) {
+    .header{
+        position: absolute;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .h-class-resp{
+        height: 51px;
+        transition: all 0.5s ease-out;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .mid{
+        display: none;
+    }
+
+    .secondary-heading{
+        display: block;
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .left img{
+        width: 25px;
+    }
+    
+    .left h1{
+        display: none;
+    }
+
+    .right{
+        flex-direction: row;
+        flex-basis: 45%;
+        align-items: center;
+    }
+    
+    .right .btn{
+        width: 90%;
+        margin: 0px 3px;
+    }
+
+    .right .btn p{
+        display: none;
+        font-size: 0.65rem;
+    }
+
+    .right .btnimg{
+        width: 30%;
+    }
+
+    .burgermenu{
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.685);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-size: 0.8rem;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .navimg{
+        height: 20px;
+    }
+
+    .footnav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    section{
+        margin: 80px 0px 40px 0px;
+    }
+
+    .contactform{
+        display: block;
+        width: 90%;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .contactform h2{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .formblock{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+    }
+
+    .field{
+        width: 100%;
+    }
+
+    #submit{
+        width: 60%;
+    }
+
+    #reset{
+        width: 30%;
+    }
+    
+    label{
+        font-size: 0.9rem;
+    }
+
+    .field{
+        font-size: 0.9rem;
+    }
+
+    input::placeholder, textarea::placeholder{
+        font-size: 0.8rem;
+    }
+
+    .footnav{
+        
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .footnav span{
+        order: 2;
+    }
+
+    .navimg{
+        height: 20px;
+    }
+
+    span{
+        font-size: 0.7rem;
+    }
+    
+    .button{
+        font-weight: bold;
+        padding: 6px;
+        font-size: 0.6rem;
+    }
+}

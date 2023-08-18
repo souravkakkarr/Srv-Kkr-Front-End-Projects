@@ -1,0 +1,219 @@
+@media screen and (min-width : 560px) and (max-width : 705px) {
+    
+    #services{
+        margin: 32px 36px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #services .box{
+        width: 100%;
+        border: 2px solid red;
+        padding: 15px 23px;
+        margin: 5px 8px;
+        border-radius: 13px;
+        background-color: rgba(169, 169, 169, 0.192);
+    }
+
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background-image: url("../bg.jpg");
+        width: 100%;
+        height: 60%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (min-width : 410px) and (max-width : 559px){
+    
+    #navbar{
+        flex-wrap: wrap;
+    }
+    #services{
+        margin: 32px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #services .box{
+        width: 100%;
+        border: 2px solid red;
+        padding: 15px 23px;
+        margin: 5px 8px;
+        border-radius: 13px;
+        background-color: rgba(169, 169, 169, 0.192);
+    }
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background-image: url("../bg.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (min-width : 330px) and (max-width : 409px){
+    #navbar{
+        flex-wrap: wrap;
+    }
+    #navbar ul{
+        flex-wrap: wrap;
+    }
+    #services{
+        margin: 32px 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #services .box{
+        width: 100%;
+        border: 2px solid red;
+        padding: 15px 23px;
+        margin: 5px 8px;
+        border-radius: 13px;
+        background-color: rgba(169, 169, 169, 0.192);
+    }
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background-image: url("../bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 64%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
+    #home p{
+        text-align: center;
+        color: white;
+        font-size: 0.9rem;
+    }
+    
+    #home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 484px;
+        justify-content: center;
+        padding: 0px 75px;
+        justify-content: space-evenly;
+    }
+    
+    /* Utility class */
+    
+    .h-primary{
+        font-size: 2rem;
+        padding: 12px;
+    }
+    form{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width : 0px) and (max-width : 329px){
+    #navbar{
+        flex-wrap: wrap;
+    }
+    #logo{
+        margin : 8px 0px 4px 8px;
+    }
+    #logo a{
+        display: block;
+    }
+    #logo img{
+        filter: invert(100%);
+        height: 35px;
+        margin: 1px;
+    }
+    #navbar ul{
+        flex-wrap: wrap;
+    }
+    #navbar ul li{
+        list-style: none;
+        font-size: 0.9rem;
+    }
+    #services{
+        margin: 2px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #services .box{
+        width: 100%;
+        border: 2px solid red;
+        padding: 15px 23px;
+        margin: 5px 8px;
+        border-radius: 13px;
+        background-color: rgba(169, 169, 169, 0.192);
+    }
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background-image: url("../bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 78%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
+    #home p{
+        text-align: center;
+        color: white;
+        font-size: 0.7rem;
+    }
+    
+    #home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 484px;
+        justify-content: center;
+        padding: 0px 75px;
+        justify-content: space-evenly;
+    }
+    
+    .h-primary{
+        font-size: 1.5rem;
+        padding: 12px;
+    }
+
+    form{
+        width: 90%;
+        margin: auto;
+    }
+    #client-item1 img{
+        height: 85px;
+    }
+    #client-item2 img{
+        height: 85px;
+    }
+    #client-item3 img{
+        height: 80px;
+    }
+    #clients #client-item4 img{
+        height: 85px;
+        margin: 2px;
+        display: block;
+    }#home::before{
+        content: "";
+        background-image: url("../bg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 596px;
+        width: 100%;
+        z-index: -2;
+        opacity: 0.89;
+    }
+}

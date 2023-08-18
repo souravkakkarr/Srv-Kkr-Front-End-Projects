@@ -1,0 +1,265 @@
+@media screen and (min-width : 768px) and (max-width : 1070px) {
+    header::before{
+        content: "";
+        background-color: #000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    header{
+        flex-wrap: wrap;
+    }
+    h2{
+        text-align: center;
+    }
+    section{
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead'
+        'headi headi headi headi'
+        'owner about about about'
+        'achievement achievement achievement achievement'
+        ;
+    }
+    .mid{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width : 445px) and (max-width : 767px){
+    header{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    header::before{
+        content: "";
+        background-color: #000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 175px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    h2{
+        text-align: center;
+    }
+    .left{
+        order : 0;
+    }
+    .right{
+        order: 1;
+    }
+    .mid{
+        order: 2;
+        width: 100%;
+    }
+    section{
+        margin: 20px 11px;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead'
+        'headi headi headi headi'
+        'owner owner owner owner'
+        'about about about about'
+        'achievement achievement achievement achievement'
+        ;
+    }
+    #img-own{
+        display: inline-block;
+        margin: auto;
+    }
+    #about{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width : 367px) and (max-width : 444px){
+    header{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    header::before{
+        content: "";
+        background-color: #000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 210px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    h2{
+        text-align: center;
+    }
+    .left{
+        order : 0;
+    }
+    .right{
+        order: 1;
+    }
+    .mid{
+        order: 2;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    section{
+        margin: 20px 11px;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead'
+        'headi headi headi headi'
+        'owner owner owner owner'
+        'about about about about'
+        'achievement achievement achievement achievement'
+        ;
+    }
+    #about{
+        font-size: 11px;
+    }
+    #achievement{
+        padding: 15px;
+        font-size: 11px;
+    }
+    #img-own{
+        display: inline-block;
+        margin: auto;
+    }
+    .footnav{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width : 256px) and (max-width : 366px){
+    header::before{
+        content: "";
+        background-color: #000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 275px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    h2{
+        text-align: center;
+    }
+    .left{
+        order : 0;
+    }
+    .right{
+        width: 100%;
+        flex-direction: row;
+        flex-basis: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px;
+        order: 1;
+    }
+    .right div{
+        width :50%;
+    }
+    .right .btn{
+        width: 70%;
+    }
+    .mid{
+        order: 2;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    section{
+        margin: 20px 11px;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead'
+        'headi headi headi headi'
+        'owner owner owner owner'
+        'about about about about'
+        'achievement achievement achievement achievement'
+        ;
+    }
+    #about{
+        font-size: 10px;
+    }
+    #achievement{
+        padding: 13px;
+        font-size: 10px;
+    }
+    #img-own{
+        display: inline-block;
+        margin: auto;
+    }
+    .footnav{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width : 0px) and (max-width : 255px){
+    header::before{
+        content: "";
+        background-color: #000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 310px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    h2{
+        text-align: center;
+    }
+    .left{
+        order : 0;
+    }
+    .right{
+        width: 100%;
+        flex-direction: row;
+        flex-basis: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px;
+        order: 1;
+    }
+    .right .btn{
+        width: 45%;
+    }
+    .mid{
+        order: 2;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    section{
+        margin: 20px 11px;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead'
+        'headi headi headi headi'
+        'about about about about'
+        'achievement achievement achievement achievement'
+        ;
+    }
+    #about{
+        font-size: 9px;
+    }
+    #achievement{
+        padding: 10px;
+        font-size: 9px;
+    }
+    #img-own{
+        display: none;
+    }
+    .footnav{
+        flex-wrap: wrap;
+    }
+}

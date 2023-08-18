@@ -1,0 +1,331 @@
+@media screen and (min-width : 517px) and (max-width : 1000px) {
+    header{
+        align-items: center;
+    }
+
+    .left img{
+        width: 45px;
+    }
+    
+    .left h1{
+        display: none;
+    }
+
+    .right{
+        align-items: center;
+    }
+    
+    .btn p{
+        font-size: 0.8rem;
+    }
+
+    .footnav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    h3, h2{
+        margin: 10px;
+    }
+    section{
+        margin: 110px 19px 40px 19px;
+        grid-gap: 0.2rem;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead mainhead'
+        'headi headi headi headi headi'
+        'owner about about about about'
+        'owner about about about about'
+        'achievement achievement achievement achievement achievement'
+        ;
+    }
+    #img-own img{
+        height: 250px;
+    }
+    
+}
+
+@media screen and (min-width : 355px) and (max-width : 516px) {
+    .header{
+        position: absolute;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .h-class-resp{
+        height: 71px;
+        transition: all 0.5s ease-out;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .mid{
+        display: none;
+    }
+
+    .secondary-heading{
+        display: block;
+    }
+
+    header{
+        align-items: center;
+    }
+    
+    .left h1{
+        display: none;
+    }
+
+    .right{
+        flex-direction: row;
+        flex-basis: 45%;
+        align-items: center;
+    }
+    
+    .right .btn{
+        width: 90%;
+        margin: 0px 3px;
+    }
+
+    .right .btn p{
+        display: none;
+        font-size: 0.65rem;
+    }
+
+    .right .btnimg{
+        width: 30%;
+    }
+
+    .burgermenu{
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.685);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-size: 0.8rem;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .navimg{
+        height: 20px;
+    }
+
+    .footnav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    span{
+        font-size: 0.7rem;
+    }
+
+    h3, h2{
+        margin: 10px;
+    }
+    section{
+        margin: 70px 19px 20px 19px;
+        grid-gap: 0.2rem;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead mainhead'
+        'headi headi headi headi headi'
+        'owner about about about about'
+        'owner about about about about'
+        'achievement achievement achievement achievement achievement'
+        ;
+    }
+    #img-own img{
+        height: 150px;
+    }
+    
+    .left img{
+        width: 45px;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .right div{
+        width: 70%;
+        text-align: center;
+    }
+    label{
+        font-size: 0.9rem;
+    }
+    input::placeholder, textarea::placeholder{
+        font-size: 0.8rem;
+    }
+    .footnav{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footnav span{
+        order: 2;
+    }
+    .navtxt{
+        display: block;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width : 0px) and (max-width : 354px) {
+    .header{
+        position: absolute;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .h-class-resp{
+        height: 71px;
+        transition: all 0.5s ease-out;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .mid{
+        display: none;
+    }
+
+    .secondary-heading{
+        display: block;
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .left img{
+        width: 25px;
+    }
+    
+    .left h1{
+        display: none;
+    }
+
+    .right{
+        flex-direction: row;
+        flex-basis: 45%;
+        align-items: center;
+    }
+    
+    .right .btn{
+        width: 90%;
+        margin: 0px 3px;
+    }
+
+    .right .btn p{
+        display: none;
+        font-size: 0.65rem;
+    }
+
+    .right .btnimg{
+        width: 30%;
+    }
+
+    .burgermenu{
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.685);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-size: 0.8rem;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .navimg{
+        height: 20px;
+    }
+
+    .footnav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    span{
+        font-size: 0.7rem;
+    }
+    #mainhead{
+        font-size: 1rem;
+    }
+    #headi{
+        font-size: 0.7rem;
+    }
+    #about{
+        padding: 9px;
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+    section{
+        margin: 65px 0px 20px 0px;
+        grid-gap: 0.2rem;
+        grid-template-areas: 
+        'mainhead mainhead mainhead mainhead mainhead'
+        'headi headi headi headi headi'
+        'owner about about about about'
+        'owner about about about about'
+        'achievement achievement achievement achievement achievement'
+        ;
+    }
+    #img-own img{
+        height: 75px;
+    }
+
+    .left img{
+        width: 45px;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .navtxt{
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .right{
+        flex-basis: 131px;
+        margin-left: 0px;
+    }
+
+    .right div{
+        width: 70%;
+        text-align: center;
+    }
+
+    label{
+        font-size: 0.9rem;
+    }
+    .field{
+        font-size: 0.9rem;
+    }
+    input::placeholder, textarea::placeholder{
+        font-size: 0.8rem;
+    }
+    .footnav{
+        
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footnav span{
+        order: 2;
+    }
+    .navimg{
+        height: 20px;
+    }
+    span{
+        font-size: 0.7rem;
+    }
+    .button{
+        font-weight: bold;
+        padding: 6px;
+        font-size: 0.6rem;
+    }
+
+}

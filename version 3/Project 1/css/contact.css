@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Courier New', Courier, monospace;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(92, 88, 88, 0.76);;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(214, 184, 129);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.5s ;
+}
+
+::-webkit-scrollbar-corner{
+    visibility: hidden;
+}
+
+body{
+    background-color: rgb(51, 48, 48);
+    background-image: url(/Image/bgcontact.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: antiquewhite;
+}
+
+header, .left, .mid, .right, .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    margin: 8px;
+    left: 0px;
+}
+header::before{
+    content: "";
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 120px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.left{
+    height: 90%;
+    padding: 8px;
+    flex-direction: column;
+    font-size: 1.35rem;
+    align-items: center;
+}
+
+.left a:hover{
+    transition: 0.5s;
+}
+
+.left img{
+    width: 65px;
+    filter: invert(100%);
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h1{
+    display: inline;
+    font-size: 1.25rem;
+}
+
+.mid{
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    width: 40%;
+    height: fit-content;
+    border: 2px solid rgba(158, 158, 158, 0.090);
+    border-radius: 25px;
+    background-color: rgba(158, 158, 158, 0.089);
+}
+
+.mid a{
+    padding: 10px;
+}
+
+.mid a:hover{
+    text-decoration: underline;
+    color: rgb(190, 177, 177);
+    transition: 0.5s;
+}
+
+.right{
+    flex-basis: 150px;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 29px;
+}
+
+.right div{
+    width: 100%;
+    text-align: center;
+}
+
+.right .btn{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 8px;
+    background-color: rgba(31, 29, 29, 0.76);
+    color: rgb(214, 197, 174);
+    border: 2px solid rgb(17, 16, 17);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(80, 74, 74);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(48, 45, 48);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+section{
+    margin: 40px 80px 40px 0px;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formblock{
+    background-color: rgba(0, 0, 0, 0.377);
+    display: inline-block;
+    padding: 25PX;
+    width: 45%;
+    border: 2PX solid rgba(58, 57, 57, 0.5);
+    border-radius: 50PX;
+}
+
+.formblock H2{
+    font-size: 1.25REM;
+}
+.field{
+    font-size: 1rem;
+    color: rgb(230, 225, 225);
+    background-color: rgba(116, 111, 111, 0.63);
+    width: 95%;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    border: 1px solid rgb(17, 16, 17);
+    border-radius: 6px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(230, 225, 225);
+    font-size: 1rem;
+    font-family: 'Open Sans', 'Courier New', Courier, monospace;
+}
+
+fieldset{
+    width: 95%;
+    border: 1px solid rgb(17, 16, 17);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.63);
+}
+
+input:hover, textarea:hover , fieldset:hover{
+    background-color: rgba(116, 111, 111);
+    border: 1px solid rgb(248, 245, 245);
+    transition: 0.5s;
+}
+
+.button{
+    font-family: 'Open sans' , 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-top: 7px;
+    padding: 9px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#submit{
+    width: 62%;
+    background-color: rgba(172, 255, 47, 0.65);
+}
+
+#submit:hover{
+    color: white;
+}
+
+#reset{
+    background-color: rgba(220, 20, 60, 0.65);
+    width: 32%;
+}
+
+#reset:hover{
+    color: wheat;
+}
+
+img[alt="insta"],
+img[alt="fb"],
+img[alt="yt"]{
+    height: 25px;
+    margin: 5px 13px;
+}
+
+img[alt="GitHub"]{
+    filter: invert(100%);
+    height: 25px;
+    margin: 5px 13px;
+}
+img[alt="insta"]:hover,img[alt="fb"]:hover{
+    filter: invert(50%);
+    transition: 0.5s ;
+}
+
+footer{
+    color: white;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.footnav{
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    padding: 3px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
