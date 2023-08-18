@@ -4,7 +4,7 @@
 }
 .projects::before{
     content: "";
-    background-image: url("/bg2.jpg");
+    background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/bg2.jpg");
     height: 100%;
     width: 100%;
     position: absolute;
