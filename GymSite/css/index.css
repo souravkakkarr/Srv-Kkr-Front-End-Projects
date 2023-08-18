@@ -30,7 +30,7 @@
 
 body{
     background-color: rgb(110, 77, 77);
-    background-image: url("/GymSite/Image/bghome.jpg");
+    background-image: url("https://souravkakkarr.github.io/Srv-Kkr-Front-End-Projects/GymSite/Image/bghome.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
