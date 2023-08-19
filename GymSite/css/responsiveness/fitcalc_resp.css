@@ -217,7 +217,8 @@
     
     .button{
         font-weight: bold;
-        padding: 6px;
-        font-size: 0.6rem;
+        padding: 8px;
+        font-size: 0.8rem;
+        margin: 15px 0px;
     }
 }
